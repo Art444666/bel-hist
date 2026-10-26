@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Рождение фабрики: промышленность Беларуси в первой половине XIX века</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@500;700;900&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{--bg:#FDFBF7;--ink:#2C2C2C;--red:#8B1E2E;--navy:#1A2E40;--line:#e6dfd0;--paper:#f6f0e3}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:17px/1.8 'Merriweather',Georgia,serif}
+h1,h2,h3,.serif{font-family:'Playfair Display',Georgia,serif;color:var(--navy);line-height:1.2}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:72px 0}
+.kicker{font:700 12px/1 'Merriweather',serif;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:14px;display:block}
+h2{font-size:clamp(28px,4.5vw,42px);margin-bottom:18px}
+.lead{max-width:720px;margin-bottom:36px}
+
+/* hero */
+.hero{background:linear-gradient(160deg,#1A2E40 0%,#12212e 100%);color:#f3ecdd;padding:110px 0 90px;position:relative;overflow:hidden;border-bottom:6px solid var(--red)}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 20%,rgba(139,30,46,.35),transparent 55%)}
+.hero .wrap{position:relative}
+.hero .era{font:700 13px 'Merriweather',serif;letter-spacing:.3em;text-transform:uppercase;color:#d9a7ae;margin-bottom:22px}
+.hero h1{color:#fff;font-size:clamp(36px,7vw,76px);font-weight:900;max-width:880px}
+.hero h1 em{color:#e7b9bf;font-style:italic;font-weight:500}
+.hero p{max-width:640px;margin-top:26px;font-size:18px;color:#d8d2c4;font-weight:300}
+.hero .rule{width:90px;height:3px;background:var(--red);margin:30px 0 0}
+
+/* quote & callout */
+blockquote{border-left:4px solid var(--red);padding:6px 0 6px 26px;margin:34px 0;font:italic 500 clamp(21px,3vw,28px)/1.45 'Playfair Display',Georgia,serif;color:var(--navy)}
+.callout{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--navy);padding:20px 24px;border-radius:4px;margin-top:30px;font-size:16px}
+.callout b{color:var(--red)}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin-top:10px}
+.card{background:#fff;border:1px solid var(--line);border-top:5px solid var(--c);padding:30px 26px;border-radius:4px;transition:transform .3s,box-shadow .3s;position:relative}
+.card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(26,46,64,.14)}
+.card .n{font:900 56px/1 'Playfair Display',serif;color:var(--c);opacity:.18;position:absolute;top:14px;right:20px}
+.card h3{font-size:25px;margin-bottom:6px}
+.card .sub{font-size:13px;color:#777;margin-bottom:18px;text-transform:uppercase;letter-spacing:.08em}
+.card ul{list-style:none;padding:0}
+.card li{padding:10px 0 10px 24px;border-top:1px solid var(--line);position:relative;font-size:15px;line-height:1.6}
+.card li:before{content:"◆";position:absolute;left:0;top:11px;color:var(--c);font-size:10px}
+
+/* focus */
+.focus{background:var(--navy);color:#e9e3d5}
+.focus h2,.focus h3{color:#fff}
+.focus .kicker{color:#e7b9bf}
+.grid2{display:grid;grid-template-columns:340px 1fr;gap:48px;align-items:start}
+figure{margin:0}
+.frame{padding:14px;background:linear-gradient(135deg,#c9a45c,#8a6a2b 50%,#d9bb7a);border-radius:3px;box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.portrait-ph{aspect-ratio:3/4;background:radial-gradient(circle at 50% 38%,#3b2a24 0 22%,transparent 23%),linear-gradient(180deg,#2a3a4a,#16222e);border:3px solid #f1e6c8;display:flex;align-items:flex-end;justify-content:center;padding:20px;text-align:center;color:#d9c9a0;font:italic 14px/1.4 'Playfair Display',serif;position:relative}
+.portrait-ph:after{content:"В. П.";position:absolute;top:34%;left:50%;transform:translate(-50%,-50%);font:700 38px 'Playfair Display',serif;color:#c9a45c;letter-spacing:.1em}
+figcaption{margin-top:16px;font-size:13px;line-height:1.6;color:#c9c2b1;font-style:italic}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:30px 0}
+.stat{border:1px solid rgba(255,255,255,.2);padding:20px 14px;text-align:center;border-radius:4px;transition:background .3s}
+.stat:hover{background:rgba(255,255,255,.07)}
+.stat b{display:block;font:900 clamp(28px,4vw,42px)/1.1 'Playfair Display',serif;color:#e7b9bf}
+.stat span{font-size:13px;color:#cfc8b8}
+
+/* tabs */
+.tabs{display:flex;gap:8px;border-bottom:2px solid var(--line);margin-bottom:32px;flex-wrap:wrap}
+.tab{font:700 15px 'Merriweather',serif;background:none;border:0;padding:14px 22px;cursor:pointer;color:#777;border-bottom:3px solid transparent;margin-bottom:-2px;transition:color .25s,border-color .25s}
+.tab:hover{color:var(--red)}
+.tab[aria-selected=true]{color:var(--red);border-color:var(--red)}
+.panel{animation:fade .6s ease}
+.panel[hidden]{display:none}
+.items{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.item{background:#fff;border:1px solid var(--line);padding:22px;border-radius:4px;transition:transform .3s,border-color .3s}
+.item:hover{transform:translateY(-4px);border-color:var(--red)}
+.item h3{font-size:20px;margin-bottom:6px;color:var(--red)}
+.item p{font-size:15px;line-height:1.6}
+
+footer{padding:40px 0;text-align:center;font-size:13px;color:#888;border-top:1px solid var(--line)}
+
+/* animation */
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none}.panel{animation:none}html{scroll-behavior:auto}}
+
+@media(max-width:820px){
+ body{font-size:16px}section{padding:52px 0}.hero{padding:80px 0 60px}
+ .grid2{grid-template-columns:1fr;gap:32px}figure{max-width:320px;margin:0 auto}
+ .stats{grid-template-columns:1fr}.tab{padding:12px 14px;font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+ <div class="wrap">
+  <div class="era">Первая половина XIX века</div>
+  <h1>От мастерской <em>к фабрике:</em> промышленный облик Беларуси</h1>
+  <div class="rule"></div>
+  <p>Эпоха, когда ручной труд крепостных уступал место машинам, а в местечках появились первые паровые двигатели — начало промышленного переворота.</p>
+ </div>
+</header>
+
+<section>
+ <div class="wrap">
+  <div class="reveal">
+   <span class="kicker">Три типа предприятий</span>
+   <h2>Мастерская, мануфактура, фабрика</h2>
+   <p class="lead">В первой половине XIX века в Беларуси существовали различные типы промышленных предприятий. Их различал способ организации труда.</p>
+  </div>
+  <div class="cards">
+   <article class="card reveal" style="--c:#8a6a2b">
+    <span class="n">I</span>
+    <h3>Ремесленные мастерские</h3><div class="sub">Ручной труд</div>
+    <ul><li>Ручное производство</li><li>Без разделения труда</li><li>Хозяин непосредственно участвует в изготовлении продукции</li></ul>
+   </article>
+   <article class="card reveal" style="--c:#1A2E40">
+    <span class="n">II</span>
+    <h3>Мануфактуры</h3><div class="sub">Разделение труда</div>
+    <ul><li>Характерно разделение труда</li><li>Преимущественно бесплатная рабочая сила крепостных крестьян</li></ul>
+   </article>
+   <article class="card reveal" style="--c:#8B1E2E">
+    <span class="n">III</span>
+    <h3>Фабрики</h3><div class="sub">Машины</div>
+    <ul><li>Разделение труда</li><li>Применение машин</li><li>Наряду с крепостными — свободные наёмные рабочие</li></ul>
+   </article>
+  </div>
+  <div class="callout reveal"><b>Кому принадлежали.</b> Почти все мануфактуры и фабрики принадлежали помещикам, но наряду с ними работали и свободные наёмные рабочие.</div>
+  <blockquote class="reveal">Новым явлением стал постепенный переход от мануфактурного к фабричному производству, что свидетельствовало о начале промышленного переворота.</blockquote>
+ </div>
+</section>
+
+<section class="focus">
+ <div class="wrap grid2">
+  <figure class="reveal">
+   <div class="frame">
+    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Vojciech_Pus%C5%82o%C5%ADski._%D0%92%D0%BE%D0%B9%D1%86%D0%B5%D1%85_%D0%9F%D1%83%D1%81%D0%BB%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%28V._Va%C5%84kovi%C4%8D%2C_1820-40%29.jpg/500px-Vojciech_Pus%C5%82o%C5%ADski._%D0%92%D0%BE%D0%B9%D1%86%D0%B5%D1%85_%D0%9F%D1%83%D1%81%D0%BB%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%28V._Va%C5%84kovi%C4%8D%2C_1820-40%29.jpg" alt="Портрет В. Пусловского в парадном костюме со слуцким поясом" class="portrait-img">
+</div>
+
+   <figcaption>Портрет В. Пусловского в парадном костюме со слуцким поясом. Художник В.&nbsp;Ванькович. XIX в. Правообладатель: Издательский центр БГУ</figcaption>
+  </figure>
+  <div class="reveal">
+   <span class="kicker">Исторический фокус</span>
+   <h2>Граф Войцех Пусловский и первые фабрики</h2>
+   <p>Первые фабрики в Беларуси были построены в 1820-е годы в местечках Хомск Кобринского уезда и Коссово Слонимского уезда. Фабрики, производившие сукно, принадлежали землевладельцу графу Войцеху Пусловскому — родоначальнику предпринимательской династии.</p>
+   <div class="stats">
+    <div class="stat"><b>1823</b><span>год: на Хомской фабрике трудились рабочие из крепостных</span></div>
+    <div class="stat"><b>400+</b><span>рабочих на Хомской фабрике</span></div>
+    <div class="stat"><b>1-е</b><span>паровые двигатели в Беларуси — на предприятиях Пусловского</span></div>
+   </div>
+   <div class="callout" style="background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.2);border-left-color:#e7b9bf;color:#e9e3d5"><b style="color:#e7b9bf">Впервые в Беларуси.</b> На предприятиях Пусловского были использованы паровые двигатели.</div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="reveal">
+   <span class="kicker">Отрасли и инфраструктура</span>
+   <h2>Что производили и как возили</h2>
+   <p class="lead">Развитие путей сообщения и торговли способствовало росту числа предприятий и расширению рынков сбыта.</p>
+  </div>
+  <div class="tabs reveal" role="tablist">
+   <button class="tab" role="tab" aria-selected="true" aria-controls="p1" id="t1">Переработка сельхозпродукции</button>
+   <button class="tab" role="tab" aria-selected="false" aria-controls="p2" id="t2">Пути сообщения</button>
+  </div>
+  <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+   <p class="lead">Наибольшее число предприятий Беларуси занимались переработкой сельскохозяйственной продукции.</p>
+   <div class="items">
+    <div class="item"><h3>Винокуренные</h3><p>Производство водки из картофеля и ржи.</p></div>
+    <div class="item"><h3>Суконные</h3><p>Выпуск сукна.</p></div>
+    <div class="item"><h3>Полотняные</h3><p>Выпуск полотна.</p></div>
+    <div class="item"><h3>Мукомольные</h3><p>Переработка зерна в муку.</p></div>
+    <div class="item"><h3>Сахарные</h3><p>Переработка сахарной свёклы.</p></div>
+   </div>
+  </div>
+  <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+   <p class="lead">В конце XVIII — первой половине XIX века проводились работы по улучшению путей сообщения.</p>
+   <div class="items">
+    <div class="item"><h3>Дороги</h3><p>Строились почтовые и шоссейные дороги.</p></div>
+    <div class="item"><h3>Каналы</h3><p>Реконструировались и строились каналы, соединявшие реки бассейнов Балтийского и Чёрного морей.</p></div>
+    <div class="item"><h3>Пароходы</h3><p>В реки Припяти, Западной Двины и Огинского канала пошли первые пароходы.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<footer>Промышленное развитие Беларуси в первой половине XIX века</footer>
+
+<script>
+document.documentElement.classList.add('js');
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3)*90+'ms';io.observe(el)});
+const tabs=document.querySelectorAll('.tab');
+tabs.forEach(t=>t.addEventListener('click',()=>{
+ tabs.forEach(b=>{const on=b===t;b.setAttribute('aria-selected',on);document.getElementById(b.getAttribute('aria-controls')).hidden=!on});
+}));
+</script>
+</body>
+</html>
